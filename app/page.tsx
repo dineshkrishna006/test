@@ -11,11 +11,11 @@ export default function Home() {
           Let{"'"}s Get Started!
         </p>
         <p className="text-[#3D408A] text-5xl font-semibold">Sign Up</p>
-        <div className="p-2 pt-5 w-full flex items-center justify-center">
-          <Signup />
+        <div className="p-2 pt-[2rem] w-full flex items-center justify-center z-20">
+          <Signup  />
         </div>
 
-        <div className="absolute bottom-0 left-0 right-0">
+        <div className="absolute bottom-0 left-0 right-0 z-0">
           <Image
             src={"/assets/Ellipse.svg"}
             alt={"Ellipse"}

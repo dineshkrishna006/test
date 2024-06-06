@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <div className="md:hidden flex fixed h-[80px] w-full z-10 items-center  justify-between shadow-lg">
-      <div className="pt-4 pl-4">
+      <div className="pt-2 pl-4">
         <button onClick={() => router.push("/")}>
           <Image
             src={"/assets/Applogo.svg"}
@@ -17,7 +17,7 @@ const Navbar = () => {
           />
         </button>
       </div>
-      <div className="pt-4 pr-4">
+      <div className="pt-2 pr-4">
         <button onClick={() => router.push("/")}>
           <Image
             src={"/assets/Vector.svg"}
