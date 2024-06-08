@@ -12,7 +12,7 @@ export default function Home() {
         </p>
         <p className="text-[#3D408A] text-5xl font-semibold">Sign Up</p>
         <div className="p-2 pt-[2rem] w-full flex items-center justify-center z-20">
-          <Signup  />
+          <Signup />
         </div>
 
         <div className="absolute bottom-0 left-0 right-0 z-0">
