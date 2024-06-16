@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { useState } from "react";
+import { ChangeEvent, useState } from "react";
 import Image from "next/image";
 const Page = () => {
   const [user, setUser] = useState(false);
@@ -41,9 +41,11 @@ const Page = () => {
               </Label>
               <Input
                 type="email"
-                id="mail"
+                id="mailid"
                 placeholder="Enter Mobile number"
                 className={cn("focus:outline-[#3D408A]")}
+                value={mail}
+                onChange={handleInputChange(setPassword)}
               />
             </div>
             {/* <div className="gap-1 w-full">
@@ -82,7 +84,7 @@ const Page = () => {
             </div> */}
             <div className=" w-full -mt-5 ">
               <Label
-                htmlFor="password"
+                htmlFor="userpassword"
                 className=" text-[#3D408A] font-semibold pl-3"
               >
                 Password
