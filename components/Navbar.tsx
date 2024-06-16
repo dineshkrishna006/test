@@ -6,7 +6,7 @@ const Navbar = () => {
   const router = useRouter();
 
   return (
-    <div className="md:hidden flex fixed h-[80px] w-full z-10 items-center  justify-between shadow-lg">
+    <div className='sticky top-0 w-full min-h-[7vh] flex justify-between py-4 px-5 items-center shadow-xl bg-white z-50'>
       <div className="pt-2 pl-4">
         <button onClick={() => router.push("/")}>
           <Image
