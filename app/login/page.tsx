@@ -45,7 +45,7 @@ const Page = () => {
                 placeholder="Enter Mobile number"
                 className={cn("focus:outline-[#3D408A]")}
                 value={mail}
-                onChange={handleInputChange(setPassword)}
+                onChange={handleInputChange(setMail)}
               />
             </div>
             {/* <div className="gap-1 w-full">
@@ -67,7 +67,6 @@ const Page = () => {
                 </p>
               </div>
             </div> */}
-
             {/* <div className=" w-full -mt-5 ">
               <Label
                 htmlFor="otp"
